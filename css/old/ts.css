@@ -1,0 +1,106 @@
+body{text-align:center;width:1100px;margin:0 auto;position:absolute;left:-70px;right:-70px;padding:1.5em 0;background:#fff}
+
+.fullBg{ position:fixed;top:0;left:0;overflow:hidden;width:100%;height:100%}
+
+/* Structure */
+#maincontent{text-align:left;position:absolute;left:0;z-index:0}
+
+.mt-15{margin-top:-1.5em}
+.mt25{margin-top:0.25em}
+.mt375{margin-top:0.375em}
+.mt75{margin-top:0.75em}
+.mt1{margin-top:1em}
+
+#meta {line-height:0.15em;position:relative;float:right;right:5em;margin:-1em 0 0 0;padding:0 0 0.5em 0}
+#meta img {-webkit-box-shadow:0 0 0.5em rgba(0,0,0,0.5);-moz-box-shadow:0 0 0.5em rgba(0,0,0,0.5);box-shadow:0 0 0.5em rgba(0,0,0,0.5)}
+
+#wrapperTop{position:relative;display:block;margin:0 auto 0.75em auto;padding:1.5em;width:910px;background-color:#f4f4f4;-moz-border-radius-topleft:20px;-webkit-border-top-left-radius:20px;border-top-left-radius:20px;-webkit-box-shadow:0 0 0.5em rgba(0,0,0,0.5);-moz-box-shadow:0 0 0.5em rgba(0,0,0,0.5);box-shadow:0 0 0.5em rgba(0,0,0,0.5)}
+
+#expose{position:relative;top:-2.45em;z-index:50}
+
+.container_blog{margin:0 auto;width:1100px;z-index:500;position:relative;background:transparent url('../ui/expose.png') repeat-y top;}
+
+#shadowTop, #shadowBottom {position:relative;top:-2.45em;margin:0 auto;width:1100px;height:22px;z-index:4}
+
+#shadowTop{background:transparent url(../ui/shadowTop.png) no-repeat}
+
+#shadowBottom{background:transparent url(../ui/shadowBottom.png) no-repeat}
+
+#wrapperBottom{position:relative;top:-4.15em;display:block;margin:0 auto;padding:1.5em;width:910px;background-color:#f4f4f4;-moz-border-radius-bottomright:20px;-webkit-border-bottom-right-radius:20px;border-bottom-right-radius:20px;-webkit-box-shadow:0 0 0.5em rgba(0,0,0,0.5);-moz-box-shadow:0 0 0.5em rgba(0,0,0,0.5);box-shadow:0 0 0.5em rgba(0,0,0,0.5)}
+
+.left, .right {width:445px;float:left;display:inline}
+
+.left{padding:0 10px 0 0}
+.right{padding:0 0 0 10px}
+
+/* Search Form */
+input.searchField{font-family:'SapirRegular',Helvetica,Arial,sans-serif;color:#5b2b2b;font-size:1em;letter-spacing:0;border:none;outline:none;width:13.75em;background:transparent;padding:0.5em 0.5em;text-transform:uppercase;font-weight:bold;background-color:#ee2d2c;-moz-border-radius-topleft:20px;-webkit-border-top-left-radius:20px;border-top-left-radius:20px;-moz-border-radius-bottomright:20px;-webkit-border-bottom-right-radius:20px;border-bottom-right-radius:20px}
+input.searchField:hover, input.searchField:focus{color:#ddd;font-weight:normal}
+input.searchField:focus{color:#ddd;text-transform:none;z-index:1000}
+#search{display:block;height:2.1em;margin: 0;padding:0.15em 0 0 0;width:15em;border:none;outline:none;z-index:2}
+
+/* Nav Menu */
+ul#lavaLamp{list-style:none;float:right;padding:0.15em 0 0 0;margin:0;z-index:3}
+ul#lavaLamp li{float:left;border:none;outline:none;display:block;text-align:center;text-transform:uppercase;z-index:5;position:relative;padding:0.325em;cursor:pointer}
+ul#lavaLamp li.backLava{z-index:3;position:absolute;background-color:#ee2d2c;-moz-border-radius-topleft:20px;-webkit-border-top-left-radius:20px;border-top-left-radius:20px;-moz-border-radius-bottomright:20px;-webkit-border-bottom-right-radius:20px;border-bottom-right-radius:20px}
+#lavaLamp li a{color:#111;text-decoration:none}
+#lavaLamp li:hover, #lavaLamp li:focus, #lavaLamp li a:hover, #lavaLamp li a:focus{color:#ddd;position:relative}
+#lavaLamp li.selectedLava, #lavaLamp li.selectedLava a{color:#5b2b2b;font-weight:bold}
+
+/* Sliding Content */
+.container_slide{margin:0 auto;width:1100px;height:24em;/* required */ overflow:hidden;z-index:500;position:relative;background:transparent url('../ui/expose.png') repeat-y top}
+.slider-item, .blogpost{float:left;width:910px;display:block;margin:0;padding:1.325em 65px 0 94px}
+.invis{position:absolute;left:0}
+
+.slider-item img{margin:-0.5em auto;vertical-align:middle}
+#slider-home h3, #slider-home p, #slider-about h3, #slider-about p, #slider-portfolio h3, #slider-portfolio p, #slider-contact h3, #slider-contact p{text-shadow:0px 2px 4px #888}
+
+/* Portfolio Items */
+.portCol {margin-top:0.75em;width:148.3px;float:left;display:inline}
+
+/* Social Column */
+#soc{float:left;width:465px;padding-bottom:1.5em}
+
+#soc img{margin-right:0.325em}
+
+.socCol{width:155px;float:left;display:inline;padding:0}
+
+.socTitle{font-family:"Lucida Grande",Tahoma;font-size:0.75em;font-weight:lighter;font-variant:normal;text-transform:uppercase;color:#666;letter-spacing:0.1em;line-height:5.88em}
+
+.moreSoc{margin:0 auto}
+
+/* Twitter Feed */
+#twitter{width:415px;float:right;display:inline;padding:0}
+.twitterbanner{position:relative;margin-top:-2.25em;z-index:100}
+.tweet_avatar img{height:48px;width:48px;float:left}
+.tweet{font-family:'TheanoOldStyleRegular',Georgia,"Times New Roman",serif;line-height:1.45em}
+.tweet p{padding:0}
+.tweet .tweet_list{list-style-type:none;margin:0;padding:0}
+.tweet .tweet_list li{overflow:auto;padding:0 0.5em 0 0.5em}
+.tweet .tweet_list .tweet_even{border-bottom:solid 1px #5b2b2b;border-top:solid 1px #5b2b2b}
+.tweet .tweet_list .tweet_avatar{padding-right:0.5em;float:left}
+.tweet .tweet_list .tweet_avatar img{vertical-align:middle}
+.tweetdate{font-size:0.75em;font-weight:lighter;font-variant:normal;text-transform:uppercase;letter-spacing:0.1em;}
+.tweetdate, .tweetdate a{font-family:"Lucida Grande",Tahoma;color:#0C717A}
+.tweetdate a{text-decoration:underline}
+.tweetdate a:hover{text-decoration:none}
+
+/* Contact Form */
+input{outline:none}
+.contactForm{padding:0 0.5em;margin:0}
+.contactForm .form-row{width:100%;margin-bottom:1.5em;float:left}
+.contactForm .label{font-size:1em;float:left;width:6em;margin:0.5em 0 0 0}
+.contactForm .input-container{float:left;text-align:right}
+.contactForm .input, .contactForm .textarea, .contactForm .sendBtn, .commentbutton, .commentinput, #piv_comment{-moz-border-radius-topleft:20px;-webkit-border-top-left-radius:20px;border-top-left-radius:20px;-moz-border-radius-bottomright:20px;-webkit-border-bottom-right-radius:20px;border-bottom-right-radius:20px}
+.contactForm .input, .commentinput{font-family:'KomikaTextRegular',Arial,sans-serif;color:#333;font-size:1em;width:19.5em;padding:0.5em;border:none;background:#f4f4f4 url('../ui/fadeinput.png') repeat-x -2em}
+.contactForm .textarea, #piv_comment{outline:none;resize:none;font-family:'KomikaTextRegular',Arial,sans-serif;color:#333;font-size:1em;width:19.5em;height:7.5em;padding:0.5em;border:none;background:#f4f4f4 url('../ui/fadetextfield.png') repeat-x 2em}
+.contactForm .input:focus, .contactForm .textarea:focus, .commentinput:focus, #piv_comment:focus{background-color:#fcfced}
+.contactForm .error-input, .contactForm .error-both .input, .contactForm .error-same .input, .commentinput{background-color:#FFEFEF;color:#600}
+.contactForm .error-div{float:right;margin:0.5em 0.5em 0 0;color:#ee2d2c}
+.contactForm .sendBtn, .commentbutton{font-family:'SapirRegular',Helvetica,Arial,sans-serif;color:#5b2b2b;border:none;text-transform:uppercase;padding:0.5em;font-size:1em;text-align:center;display:block;cursor:pointer;font-weight:bold;background-color:#ee2d2c}
+.contactForm .sendBtn{width:6em;float:right}
+.contactForm .sendBtn:hover, .commentbutton:hover{color:#ddd;font-weight:normal}
+
+/* Miscellaneous */
+.clear{clear:both}
+.fr{border:1px solid #ccc;padding:0.25em}
